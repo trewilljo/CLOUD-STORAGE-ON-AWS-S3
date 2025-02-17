@@ -12,7 +12,7 @@
 
 *MENTOR NAME*: NEELA SANTOSH
 
-#Description
+# Description
 *AWS S3 (Simple Storage Service)*
 Amazon Simple Storage Service (Amazon S3) is a leading object storage service that provides exceptional scalability, data availability, security, and performance. This versatile solution is applicable across various scenarios, including data lakes, websites, mobile applications, backup and restore operations, archiving, corporate applications, Internet of Things (IoT) devices, and big data analytics. Amazon S3 is designed to accommodate users from diverse sectors, allowing them to store and protect virtually any volume of data securely.
 
@@ -20,7 +20,7 @@ Amazon Simple Storage Service (Amazon S3) is a leading object storage service th
 1. CREATE AND CONFIGURE CLOUD STORAGE ON AWS S3 OR GOOGLE CLOUD STORAGE.
 2. DELIVERABLE: A BUCKET SETUP WITH EXAMPLE FILES UPLOADED AND ACCESS PERMISSIONS CONFIGURED.
 
-#Procedure!
+# Procedure!
 
 *Step 1: Logging in to the AWS Console*
 1. Go to the AWS Console and sign in with our credentials.
