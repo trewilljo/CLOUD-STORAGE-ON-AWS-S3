@@ -32,7 +32,8 @@ Amazon Simple Storage Service (Amazon S3) is a leading object storage service th
 3. By default, all new S3 buckets are set to General Purpose, which is the recommended bucket type  and supports a wide range of use cases with no specific restrictions on storage class or data access.
 
 *step 3: Enabling ACLs and Configuring Public Access*
-1.*Enable ACLs:*We should opt the option for **Object Ownership** and select **ACLs enabled**. This will allow objects in our bucket to be owned by other AWS accounts.
+1.**Enable ACLs**:
+    -We should opt the option for **Object Ownership** and select **ACLs enabled**. This will allow objects in our bucket to be owned by other AWS accounts.
 
 2. **Turn Off Block Public Access**:
    - Still in the **Permissions** section, we look for the **Block Public Access settings for this bucket**.
