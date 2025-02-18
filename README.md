@@ -96,6 +96,16 @@ A policy is a container for permissions. we can create different types of polici
 - Click "Generate Policy".
   
 <img src="AWS policy generator.png">
-lastly, we Copy the code and use the generated JSON policy.
 
+**Step 3: Apply the Policy to Your S3 Bucket**
+- We copy the generated policy.
+- Open the Permissions tab 
+- Click Edit Bucket Policy.
+- We paste the copied policy and click Save.
+<img src="Paste the json code.png">
 
+## **Now, our S3 bucket has a policy allowing public read access.**
+
+## OUTPUT :
+
+<img src="index file.png">
