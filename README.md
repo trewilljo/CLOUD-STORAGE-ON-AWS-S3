@@ -72,3 +72,31 @@ Amazon Simple Storage Service (Amazon S3) is a leading object storage service th
 
 <img src="Upload objects.png">
 
+*Step 5: Set Permissions for Secure Access*
+
+1. **Navigate to AWS policy generator**
+   - AWS Policy Generator: AWS provides a Policy Generator tool to create IAM policies, S3 bucket policies, and other AWS service policies. This tool helps users define access rules in JSON format.
+
+- We can use AWS Policy Generator in two ways:
+  1️. Via AWS Consol.
+  2️. Manually Create a JSON Policy
+
+**Steps for generating policy via AWS console**
+ - Go to AWS Policy Generator:
+**Step1:Select Policy Type:**
+A policy is a container for permissions. we can create different types of policies in this task we create an S3 policy
+- Choose S3 Bucket Policy (for bucket access).
+**step 2:Add Statements:**
+  It's a formal description of a single permission.
+- Effect: Select Allow(to permit access).
+- Principle: *(applies to everyone).
+- AWS Service: We choose Amazon S3.
+- Actions: Select actions like: "s3:GetObject" (Read files: allows reading/downloading files)
+- ARN (Resource Name):
+  -- For the entire bucket: arn:aws:s3:::bright
+- Click "Generate Policy".
+  
+<img src="
+Copy and use the generated JSON policy.
+
+
