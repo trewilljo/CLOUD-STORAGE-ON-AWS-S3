@@ -20,7 +20,7 @@ Amazon Simple Storage Service (Amazon S3) is a leading object storage service th
 1. CREATE AND CONFIGURE CLOUD STORAGE ON AWS S3 OR GOOGLE CLOUD STORAGE.
 2. DELIVERABLE: A BUCKET SETUP WITH EXAMPLE FILES UPLOADED AND ACCESS PERMISSIONS CONFIGURED.
 
-# Procedure!
+# Procedure:
 
 *Step 1: Logging in to the AWS Console*
 1. Go to the AWS Console and sign in with our credentials.
@@ -30,6 +30,9 @@ Amazon Simple Storage Service (Amazon S3) is a leading object storage service th
 1. We'll click on “Create Bucket” in the S3 dashboard.
 2. Now, we need to enter a unique bucket name (remember, bucket names must be globally unique). For example, let’s name our bucket "mybucket094."
 3. By default, all new S3 buckets are set to General Purpose, which is the recommended bucket type  and supports a wide range of use cases with no specific restrictions on storage class or data access.
+
+
+<img src="create s3.png">
 
 *step 3: Enabling ACLs and Configuring Public Access*
 
@@ -47,4 +50,5 @@ Amazon Simple Storage Service (Amazon S3) is a leading object storage service th
 4. **Final Review and Create Bucket**:
    - We should review all the settings we've configured for accuracy.
    - Finally, we click **Create Bucket** to complete the setup.
+
  
