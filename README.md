@@ -68,5 +68,7 @@ Amazon Simple Storage Service (Amazon S3) is a leading object storage service th
    - Choose **Add files** or **Add folder** to upload multiple files at once.  
 
 5. **Complete the Upload**  
-   - Follow any prompts to finish uploading your selected files or folder.  
- 
+   - Follow any prompts to finish uploading your selected files or folder.
+
+<img src="Upload objects.png">
+
