@@ -62,13 +62,12 @@ Amazon Simple Storage Service (Amazon S3) is a leading object storage service th
    - Click on the bucket we created earlier ("bbright").  
 
 3. **Click "Upload"**  
-   - In the bucket dashboard, click on the **Upload** button.  
+   - In the bucket dashboard, we click on the **Upload** button.  
 
 4. **Select Files or Folder**  
-   - Choose **Add files** or **Add folder** to upload multiple files at once.  
-
+   - We Choose **Add files** as we select our [index file](index.html)
 5. **Complete the Upload**  
-   - Follow any prompts to finish uploading your selected files or folder.
+   - We Follow the prompts to finish uploading the selected file.
 
 <img src="Upload objects.png">
 
@@ -96,7 +95,7 @@ A policy is a container for permissions. we can create different types of polici
   -- For the entire bucket: arn:aws:s3:::bright
 - Click "Generate Policy".
   
-<img src="
-Copy and use the generated JSON policy.
+<img src="AWS policy generator.png">
+lastly, we Copy the code and use the generated JSON policy.
 
 
