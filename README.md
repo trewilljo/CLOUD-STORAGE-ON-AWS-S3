@@ -106,7 +106,7 @@ A policy is a container for permissions. we can create different types of polici
 - We paste the copied policy and click Save.
 <img src="Paste the json code.png">
 
-## **Now, our S3 bucket has a policy allowing public read access.**
+### **Now, our S3 bucket has a policy allowing public read access.**
 
 ## OUTPUT :
 
