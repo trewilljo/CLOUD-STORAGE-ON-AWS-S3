@@ -82,9 +82,11 @@ Amazon Simple Storage Service (Amazon S3) is a leading object storage service th
 
 **Steps for generating policy via AWS console**
  - Go to AWS Policy Generator:
+
 **Step1:Select Policy Type:**
 A policy is a container for permissions. we can create different types of policies in this task we create an S3 policy
 - Choose S3 Bucket Policy (for bucket access).
+
 **step 2:Add Statements:**
   It's a formal description of a single permission.
 - Effect: Select Allow(to permit access).
@@ -97,7 +99,7 @@ A policy is a container for permissions. we can create different types of polici
   
 <img src="AWS policy generator.png">
 
-**Step 3: Apply the Policy to Your S3 Bucket**
+**Step 6: Apply the Policy to Your S3 Bucket**
 - We copy the generated policy.
 - Open the Permissions tab 
 - Click Edit Bucket Policy.
